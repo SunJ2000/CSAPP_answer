@@ -14,7 +14,7 @@ unsigned replace_bytes(unsigned x, int i, unsigned char b)
 
 int main()
 {
-	//2.61   ÏëÏë°ì·¨°ÑÑ¡ÏîÖÐµÄÊý×Ö±äÎªÈ«0»òÈ«1£¬È»ºóÖ±½Ó!»ò~£¡,
+	//2.61   æƒ³æƒ³åŠžæ³•æŠŠé€‰é¡¹ä¸­çš„æ•°å­—å˜ä¸ºå…¨0æˆ–å…¨1ï¼Œç„¶åŽç›´æŽ¥!æˆ–~ï¼,
 	//A: !~X   B:!X		C: !~(x | ~0xff)	D:!((x >> ((sizeof(int) - 1) << 3)) & 0xff)
 	int x = 0xCf;
 	printf("%0x", !~(x | ~0xff));
